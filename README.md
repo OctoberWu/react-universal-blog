@@ -18,7 +18,7 @@ It uses the following:
 6. [Cosmic JS](https://cosmicjs.com) for content management
 ##### Install
 ```
-git clone https://github.com/tonyspiro/react-universal-blog
+git clone https://github.com/sitepoint-editors/react-universal-blog
 cd react-universal-blog
 npm install
 ```
