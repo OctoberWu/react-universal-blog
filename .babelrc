@@ -1,5 +1,6 @@
 {
-  "presets":[
-    "es2017", "react"
+  "presets": [
+    "@babel/preset-env",
+    "@babel/preset-react"
   ]
 }
