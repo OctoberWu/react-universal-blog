@@ -6,6 +6,7 @@ import express from 'express'
 import hogan from 'hogan-express'
 import config from './config'
 
+
 // Actions
 import { getStore, getPageData } from './actions/actions'
 
@@ -18,6 +19,7 @@ app.engine('html', hogan)
 app.set('views', __dirname + '/views')
 app.use('/', express.static(__dirname + '/public/'))
 app.set('port', (process.env.PORT || 3000))
+console.log("media_url: "+process.env.COSMIC_MEDIA_URL)
 
 app.get('*',(req, res) => {
 

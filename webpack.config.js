@@ -1,8 +1,15 @@
 // webpack.config.js
+var dotenv = require('dotenv')
+dotenv.config()
+
 var webpack = require('webpack')
+
 
 module.exports = {
   devtool: 'eval',
+  node: {
+    fs: 'empty'
+  },
   entry: './app-client.js',
   output: {
     path: __dirname + '/public/dist',

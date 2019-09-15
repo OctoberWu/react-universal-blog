@@ -51,7 +51,10 @@ export default class Footer extends Component {
                   </a>
                 </li>
               </ul>
-              <p className="copyright text-muted" dangerouslySetInnerHTML={{__html: footer_text }}></p>
+              <div className="text-center">
+                <img src="https://web-assets.cosmicjs.com/images/powered-by-cosmicjs.svg" class="w-180 h-40"/>
+              </div>
+              {/*<p className="copyright text-muted" dangerouslyInnerHTML={{__html: footer_text }}></p>*/}
             </div>
           </div>
         </div>
