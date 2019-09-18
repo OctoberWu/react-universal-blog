@@ -3,7 +3,7 @@ import React from 'react'
 import { match, RoutingContext, Route, IndexRoute } from 'react-router'
 import ReactDOMServer from 'react-dom/server'
 import express from 'express'
-import hogan from 'hogan-express'
+import hogan from 'hogan-xpress'
 import config from './config'
 
 

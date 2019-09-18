@@ -4,7 +4,7 @@ dotenv.config()
 
 export default {
   site: {
-    title: 'Secrete Garden of React'
+    title: 'Welcome to My Garden'
   },
   bucket: {
     slug: process.env.COSMIC_BUCKET || '',

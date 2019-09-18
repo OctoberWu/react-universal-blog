@@ -12,11 +12,11 @@ export default class Footer extends Component {
     }
 
     let twitter
-    let facebook
+    let linkedin 
     let github
     if(data.globals.social){
       twitter = data.globals.social.twitter
-      facebook = data.globals.social.facebook
+      linkedin = data.globals.social.linkedin 
       github = data.globals.social.github
     }
 
@@ -35,10 +35,10 @@ export default class Footer extends Component {
                   </a>
                 </li>
                 <li>
-                  <a href={ facebook } target="_blank">
+                  <a href={ linkedin } target="_blank">
                     <span className="fa-stack fa-lg">
                       <i className="fa fa-circle fa-stack-2x"></i>
-                      <i className="fa fa-facebook fa-stack-1x fa-inverse"></i>
+                      <i className="fa fa-linkedin fa-stack-1x fa-inverse"></i>
                     </span>
                   </a>
                 </li>

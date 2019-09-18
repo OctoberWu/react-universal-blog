@@ -33,8 +33,8 @@ export function getStore(callback){
     metafields = globals.social.metafields
     let twitter = _.find(metafields, { key: 'twitter' })
     globals.social.twitter = twitter.value
-    let facebook = _.find(metafields, { key: 'facebook' })
-    globals.social.facebook = facebook.value
+    let linkedin = _.find(metafields, { key: 'linkedin' })
+    globals.social.linkedin = linkedin.value
     let github = _.find(metafields, { key: 'github' })
     globals.social.github = github.value
 

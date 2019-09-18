@@ -42,3 +42,10 @@ export default {
   }
 }
 ```
+
+OctoberWu note:
+The project was created quite for a while. Many packages are out-dated.
+In this work, 2 packages are upgrade:
+1. Babel 6.4.1 => Babel 7.0.0
+2. hogan-express => hogan-xpress
+btw. hogan-express is not maintained anymore.

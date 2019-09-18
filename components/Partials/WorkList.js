@@ -3,8 +3,6 @@ import React, { Component } from 'react'
 import _ from 'lodash'
 import { Link } from 'react-router'
 
-// Dispatcher
-import AppDispatcher from '../../dispatcher/AppDispatcher'
 
 export default class WorkList extends Component {
 
@@ -48,7 +46,7 @@ export default class WorkList extends Component {
             <h2 className="post-title pointer">
               <Link to={ '/work/' + work_item.slug } onClick={ this.scrollTop }>{ work_item.title }</Link>
             </h2>
-            <p className="post-meta">Posted by <a href="https://cosmicjs.com" target="_blank">Cosmic JS</a> on { created }</p>
+            <p className="post-meta">Posted by <a href="https://cosmicjs.com" target="_blank">ShihChiang Wu</a> on { created }</p>
           </div>
           <hr/>
         </div>
